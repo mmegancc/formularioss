@@ -1,0 +1,44 @@
+<!--Carreon Cuevas Megan Naomi-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formularios en HTML</title>
+
+<h2>Formularios con agrupamiento</h2>
+<!--Define el url en el que se envían los archivos-->
+<form action="" method="post">
+<!--grupo de daatos-->
+<fieldset>
+<!--Define el titulo o etiqueta visyal-->
+<legend>Datos personales</legend>
+<!--instrucción para ingresar nombre y apellidos-->
+Nombre y apellido:
+<input type="text" name="nombre_apellido"><br>
+<!--instrucción para cargar archivos-->
+Documento valido:
+<input type="file" name="documento"><br>
+<!--instrucción para poner fechas-->
+Fecha de nacimiento:
+
+<input type="date" name="fecha_nacimiento">
+<!--cierre del grupo de datos-->
+</fieldset>
+<fieldset>
+<legend>Datos de estudio:</legend>
+<!--instrucción para poner datos-->
+Nombre de la escuela:
+<input type="text" name="escuela"><br>
+Certificado valido:
+<input type="file" name="certificado"><br>
+Fecha de egreso:
+<input type="date" name="fecha_egreso">
+</fieldset>
+<br>
+<!--botón para enviar -->
+<button type="submit">Enviar <i class="fa-regular fa-paper-plane"></i> </button>
+<!--botón para borra y limpiar-->
+<button type="reset">Borrar <i class="fa fa-trash"></i></button>
+</form>
